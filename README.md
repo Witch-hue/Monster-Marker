@@ -1,12 +1,11 @@
+Original Author Seren, Updated and upkept by Witch
+
 # monster-marker
 A Tera Proxy module that alerts you when an Event Mob is on your characters vicinity.
 
 Spawns a Loot beam (Vergos head) next to event mob.
 
 Currently working on Santas (patch 88 NA)
-
-
-Oringal Author Seren, Updated and upkept by Witch
 
 
 ## Updates
@@ -16,16 +15,16 @@ Note: Special (event) mob searching is enabled by default and can be disabled in
 
 ## Requirements and Information
 Requires:
-- Commands module by Pinkie-Pie: https://github.com/pinkipi/command
+- Commands module: https://github.com/tera-toolbox/command
 
 Supports:
 - Auto Update using Caali's Proxy
 
-To find more mob ids, you can use mob-id-finder: https://github.com/SerenTera/Mob-id-finder
+To find more mob ids, you can use mob-id-finder: https://github.com/Witch-hue/MobId-Finder
 
-A Tera Proxy module that warns you when specific objects(mobs like mongos/blue boxes) are in your VISIBLE vicinity (ie: IN YOUR SIGHT) and puts a marker on them. WILL NOT TELL U ANYTHING IF U CANT SEE IT DON'T ASK HOW TO DO THAT TY. Use common sense and do not use this module/ disable mobmarkers for mob targets with very common spawn rate, instead of complaining of lags >.> This is made for rare spawn events in mind.
+A Tera Proxy module that warns you when specific objects(mobs like mongos/blue boxes) are in your VISIBLE vicinity (ie: IN YOUR SIGHT) and puts a marker on them.
 
-This only warns you when the object is loaded onto your visible vicinity (ie. you can see it around you). A mob marker (vergos head) is spawned on mob(bluebox) and despawned when mob is dead/out of range.
+This only warns you when the object is loaded onto your visible vicinity (ie. you can see it around you). A mob marker (vergos head) is spawned on mob and espawned when mob is dead/out of range.
 
 Warning is done via client sided system notices (displays a message in the middle of your screen) as default, but system messages (chat messages) can be turned on. To turn on chat message notification, set 'messager=true' under defaults in index.js or false to disable chat message notifications.
 
